@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Patient_module_System.Patient_to_book_appointment"/>
+      <class name="Admin_module_system.To_Add_Doctor_System"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

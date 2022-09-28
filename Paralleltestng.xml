@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="Test">
+    <classes>
+      <class name="Patient_module_System.Patient_to_book_appointment"/>
+    </classes>
+  </test>
+  <test thread-count="2" parallel="tests" name="Test1">
+    <classes>
+      <class name="Admin_module_system.To_Add_Doctor_System"/>
+    </classes>
+  </test> <!-- Test -->
+   <!-- Test -->
+</suite> <!-- Suite -->
